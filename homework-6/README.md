@@ -1,1 +1,1 @@
-[Homework 6](http://imm.edumedia.ca/faze0007/mtm1526/homework-6/)
+[Homework 6](http://imm.edumedia.ca/faze0007/mtm1531/homework-6/)
