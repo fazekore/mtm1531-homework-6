@@ -19,13 +19,18 @@ $results = $db->query('
 </head>
 <body>
 	
-	<ul>
+    
+    <a href="add.php">Add a Movie!</a>
+	
+    <ul>
 	
 	<?php foreach ($results as $movies) : ?>
 		<li>
 			<a href="single.php?id=<?php echo $movies['id']; ?>"><?php echo $movies['movie_title']; ?></a>
 			&bull;
-
+			
+            <a href="edit.php?id=<?php echo $movies['id']; ?>">Edit</a>
+            
 			<a href="delete.php?id=<?php echo $movies['id']; ?>">Delete</a>
 		</li>
 	<?php endforeach; ?>
